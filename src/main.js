@@ -56,4 +56,6 @@ function getValueMeasure(val, type) {
     }
 }
 
+
+
 botao.addEventListener("click", calcularChurrasco)
