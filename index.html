@@ -9,9 +9,9 @@
   </head>
   <body>
     <header>
-      <h5 class="text-center py-3">GAMA ACADEMY</h5>
+      <h1 class="text-white h2 text-center text-uppercase">Churrasco Certo!</h1>
     </header>
-    <div class="container py-3">
+    <div class="container py-3 mt-3">
         <h2 class="text-center text-white">Calculadora de Churrasco</h2>
         <h5 class="text-center text-white">Para calcular os insumos insira a quantidade de convidados</h5>
 
@@ -38,42 +38,49 @@
     </div>
     </div>
 
-    <h3 class="text-center text-white mt-lg-4">Para as bebidas</h3>
+    <h3 class="text-center text-white mt-lg-2">Para as bebidas</h3>
 
     <div class="row justify-content-center text-white">
-      <div class="col-lg-3 mx-3 text-center">
+      <div class="col-lg-4 mx-3 text-center">
         <label for="bebidas-alcoolicas">Quantos bebem cerveja?</label>
         <input id="bebidas-alcoolicas" type="text" />
       </div>
-      <div class="col-lg-3 mx-3 text-center">
+      <div class="col-lg-4 mx-3 text-center">
         <label for="bebidas-nao-alcoolicas">Quantos bebem suco?</label>
         <input id="bebidas-nao-alcoolicas" type="text" />
       </div>
     </div>
-    <div class="row text-center mt-3 mt-lg-5">
+    <div class="row text-center mt-3 mt-lg-4">
       <div class="col">
-        <button id="botaoCalcular">Calcular</button>
+        <button id="botaoCalcular" onclick="aplicaBg()">Calcular</button>
       </div>
     </div>
 
       <div class="row font-weight-bold text-white mt-lg-4">
-        <div id="divResultados" class="col-7 mx-auto d-flex justify-content-around p-2">
+        <div id="divResultados" class="col-11 mx-auto p-2 rounded">
+          <div class="col-12 text-center">
+            <div>
+              <label for="total-pessoas" id="total-pessoas"></label>
+            </div>
+          </div>
+          <div class="col-12 mx-auto d-flex justify-content-around">
+            <div class="col-lg-6">
           <div>
             <label for="total-carne" id="total-carne"></label>
           </div>
           <div>
-            <label for="total-pessoas" id="total-pessoas"></label>
-          </div>
-          <div>
             <label for="total-acompanhamento" id="total-acompanhamento"></label>
           </div>
+        </div>
+        <div class="col-lg-6">
           <div>
             <label for="total-bebidas-nao-alcoolicas" id="total-bebidas-nao-alcoolicas"></label>
           </div>
           <div>
             <label for="total-bebidas-alcoolicas" id="total-bebidas-alcoolicas"></label>
           </div>
-      </div>
+        </div>
+        </div>
         <div>
       </div>
     </div>

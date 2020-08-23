@@ -4,26 +4,26 @@ body {
 }
 
 .container {
-    background-color: #00193c;
+    background-color: rgb(21, 24, 27);
     width: 50%;
 }
 
 header {
-    background-color: #5e2e92;
-    color: #73dd3f;
+    background-color: #ff440d;
+    padding: 10px;
+}
+
+label {
+    font-weight: normal !important;
 }
 
 input[type="text"]{
     width: 100px;
     height: 40px;
 }
-#resultado {
-    background-color: #002e6d;
-    border-radius: 10px;
-}
 
 button {
-    background-color: #c50e39;
+    background-color: #fb3900;
     color: white;
     font: 400 25px Arial;
     padding: 7px 38px;

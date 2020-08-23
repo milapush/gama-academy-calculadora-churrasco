@@ -29,11 +29,11 @@ const calcularChurrasco = () => {
 
     
 
-    document.getElementById("total-carne").innerHTML = `${getValueMeasure(totalCarne, 1)}`
-    document.getElementById("total-pessoas").innerHTML = `${totalPessoas} pessoas`
-    document.getElementById("total-acompanhamento").innerHTML = `${getValueMeasure(totalAcompanhamento, 1)}`
-    document.getElementById("total-bebidas-nao-alcoolicas").innerHTML = `${getValueMeasure(totalBebidasNaoAlcoolicas, 2)}`
-    document.getElementById("total-bebidas-alcoolicas").innerHTML = `${getValueMeasure(totalBebidasAlcoolicas, 2)}`
+    document.getElementById("total-carne").innerHTML = `${getValueMeasure(totalCarne, 1)} de carne`
+    document.getElementById("total-pessoas").innerHTML = `Para ${totalPessoas} pessoas, você vai precisar de:`
+    document.getElementById("total-acompanhamento").innerHTML = `${getValueMeasure(totalAcompanhamento, 1)} de acompanhamentos`
+    document.getElementById("total-bebidas-nao-alcoolicas").innerHTML = `${getValueMeasure(totalBebidasNaoAlcoolicas, 2)} de suco`
+    document.getElementById("total-bebidas-alcoolicas").innerHTML = `${getValueMeasure(totalBebidasAlcoolicas, 2)} de cerveja`
 
 }
 
@@ -56,6 +56,9 @@ function getValueMeasure(val, type) {
     }
 }
 
+function aplicaBg(){
+    document.getElementById("divResultados").style.backgroundColor = "#ff440d";
+}
 
 
 botao.addEventListener("click", calcularChurrasco)
