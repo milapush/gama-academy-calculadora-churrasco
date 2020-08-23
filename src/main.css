@@ -5,7 +5,6 @@ body {
 
 .container {
     background-color: rgb(21, 24, 27);
-    width: 50%;
 }
 
 header {
@@ -13,13 +12,16 @@ header {
     padding: 10px;
 }
 
-label {
-    font-weight: normal !important;
-}
-
 input[type="text"]{
     width: 100px;
     height: 40px;
+    text-align: center;
+}
+
+.allInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -30,4 +32,11 @@ button {
     border-width: 2px;
     border-style: none;
     border-radius: 25px;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        background-color: rgb(21, 24, 27);
+        width: 50%;
+    }
 }
