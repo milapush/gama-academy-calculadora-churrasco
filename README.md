@@ -13,8 +13,8 @@ Criação de uma calculadora de churrasco que utilizará o número de pessoas pa
 
 Finished :heavy_check_mark: 
  
-<h4>:rocket: Deploy: </h4>
-[www.calculadora-churrascocerto.netlify.app](https://bit.ly/2DzpRwH)</p>
+#### :rocket: Deploy:
+[calculadora-churrascocerto.netlify.app](https://bit.ly/2DzpRwH)
 
 
 ### Back-End criado por: 
