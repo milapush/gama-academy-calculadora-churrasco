@@ -5,8 +5,8 @@ Criação de uma calculadora de churrasco que utilizará o número de pessoas pa
 ## Front-End desenvolvido por: 
 
 ### • Camila Gomes <br>
-Github: - [https://github.com/milapush] <br>
-Portfolio: [https://camilagomes.netlify.app/]
+[Meu Github](https://github.com/milapush) <br>
+[Meu Portfolio](bit.ly/camilagomes-portifa)
 
 
 ### Status 
@@ -14,7 +14,7 @@ Portfolio: [https://camilagomes.netlify.app/]
 Finished :heavy_check_mark: 
  
 <h4>:rocket: Deploy: </h4>
-<p>https://calculadora-churrascocerto.netlify.app/</p>
+[www.calculadora-churrascocerto.netlify.app](https://bit.ly/2DzpRwH)</p>
 
 
 ### Back-End criado por: 
