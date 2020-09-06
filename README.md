@@ -1,12 +1,22 @@
 ## Sobre o Projeto 💻
 
-Este projeto é destinado aos alunes da stack Hacker do Gama Experience. O projeto visa a criação de uma calculadora de churrasco que utilizará o número de pessoas para o resultado da quantidade necessária de carne, acompanhamentos e cerveja 🍺.
+Criação de uma calculadora de churrasco que utilizará o número de pessoas para sugerir a quantidade necessária de carne, acompanhamentos e cerveja 🍺.
 
 ## Front-End desenvolvido por: 
 
-• Camila Gomes - [https://github.com/milapush]
+#### • Camila Gomes <br>
+Github: - [https://github.com/milapush] <br>
+Portfolio: [https://camilagomes.netlify.app/]
 
 
-## Back-End criado por: 
+### Status 
+
+Finished :heavy_check_mark: 
+ 
+<h4>:rocket: Deploy: </h4>
+<p>https://calculadora-churrascocerto.netlify.app/</p>
+
+
+### Back-End criado por: 
 
 Equipe Gama Academy && [@michellehorn](https://github.com/michellehorn)
