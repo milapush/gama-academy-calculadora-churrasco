@@ -6,7 +6,7 @@ Criação de uma calculadora de churrasco que utilizará o número de pessoas pa
 
 ### • Camila Gomes <br>
 [Meu Github](https://github.com/milapush) <br>
-[Meu Portfolio](bit.ly/camilagomes-portifa)
+[Meu Portfolio](https://bit.ly/3i3Le8j)
 
 
 ### Status 
